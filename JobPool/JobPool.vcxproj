@@ -78,7 +78,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="JobScheduler.cpp" />
+    <ClCompile Include="advJob.cpp" />
+    <ClCompile Include="advJobPool.cpp" />
+    <ClCompile Include="advJobThread.cpp" />
+    <ClCompile Include="myDownloadJob.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="advCommons.h" />
+    <ClInclude Include="advJob.h" />
+    <ClInclude Include="advJobPool.h" />
+    <ClInclude Include="advJobThread.h" />
+    <ClInclude Include="myDownloadJob.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="JobThreadConfig.xml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

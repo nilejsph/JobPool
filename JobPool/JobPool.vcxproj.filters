@@ -15,8 +15,37 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="JobScheduler.cpp">
+    <ClCompile Include="advJob.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="advJobThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="advJobPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="myDownloadJob.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="advCommons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="advJob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="advJobThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="advJobPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myDownloadJob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="JobThreadConfig.xml" />
   </ItemGroup>
 </Project>
